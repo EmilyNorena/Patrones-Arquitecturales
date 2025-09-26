@@ -77,4 +77,5 @@ Una base de datos MySQL almacena la información de los productos en una tabla d
 
 <img width="948" height="215" alt="image" src="https://github.com/user-attachments/assets/c5a94058-8fe1-4caf-b273-48908da71e45" />
 
-
+### Video con más detalles y presentando el funcionamiento
+https://youtu.be/sV3043QLvd4
