@@ -10,15 +10,17 @@
 </head>
 
 <body>
-    <div>
+    <div id="notification" class="hidden"></div>
+    <div id="principal">
         <div class="action-bar">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i id="searchBtn" class="fa-solid fa-magnifying-glass"></i>
             <input type="text" id="searchInput" placeholder="">
-            <button id="showForm" type="submit">+ Añadir</button>
+            <button id="showForm">+ Añadir</button>
+            <button id="backBtn">Volver</button>
         </div>
 
         <div id="formContainer" class="form-container hidden">
-            <h3>Añadir nuevo producto</h3>
+            <h3>Añadir/Editar nuevo producto</h3>
             <form id="addForm">
                 <label>Dirección:</label>
                 <input type="text" id="address" required>

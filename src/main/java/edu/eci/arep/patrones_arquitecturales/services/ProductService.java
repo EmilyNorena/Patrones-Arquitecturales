@@ -7,7 +7,9 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ProductService {
 
     @Autowired
@@ -25,8 +27,8 @@ public class ProductService {
         return productRepository.findAll();
     }
 
-    public Product getProduct(String id){
-        return productRepository.getReferenceById(id);
+    public Optional<Product> getProduct(String id){
+        return productRepository.findById(id);
     }
 
     public Product updateProduct(String id, Product newProduct){
